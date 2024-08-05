@@ -1,11 +1,13 @@
 import React from "react";
 import "./Navbar.css";
+import logo from "../../images/logo.svg";
+
 const Navbar = () => {
     return (
         <div className="container">
             <div className="Navbar">
                 <div className="logo">
-                    <span>Shortly</span>
+                    <img src={logo} alt="shortly-logo" />
                 </div>
 
                 <div className="nav-links">

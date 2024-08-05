@@ -35,3 +35,10 @@ body {
     margin: auto;
     padding-inline: 2em;
 }
+
+/* for hero img */
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}

@@ -1,0 +1,45 @@
+.Hero {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    padding-block: 7em;
+}
+
+.hero-left {
+    width: 70%;
+}
+
+.hero-left h1 {
+    font-size: 4.8rem;
+    line-height: 1.2;
+}
+
+.hero-right {
+    width: 50%;
+    display: grid;
+    place-items: center;
+    /* overflow: hidden; */
+    position: relative;
+    height: 400px;
+    /* width: 500px; */
+}
+.hero-right img {
+    width: 130%;
+    position: absolute;
+    top: 0em;
+    left: 3em;
+}
+
+.hero-left p {
+    color: var(--Gray);
+    font-size: 1.6rem;
+    max-width: 700px;
+    font-weight: 500;
+    margin-bottom: 2em;
+}
+
+.hero-left .green-btn {
+    font-size: 1.3rem;
+    border-radius: 30px;
+}
