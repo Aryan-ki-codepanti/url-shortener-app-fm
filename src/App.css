@@ -29,3 +29,9 @@ body {
 
     /* wt: 500,700 */
 }
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding-inline: 2em;
+}

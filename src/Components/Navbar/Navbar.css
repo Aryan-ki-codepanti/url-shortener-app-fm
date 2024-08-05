@@ -1,0 +1,43 @@
+.Navbar {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    padding-block: 2em;
+}
+.Navbar .login-sign {
+    margin-left: auto;
+}
+
+.logo span {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--Very_Dark_Violet);
+    /* color: var(--Very_Dark_Blue); */
+}
+
+.Navbar a {
+    text-decoration: none;
+    color: var(--Grayish_Violet);
+    font-weight: 700;
+}
+
+.Navbar .nav-links,
+.Navbar .login-sign {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+}
+
+.green-btn {
+    background: var(--Cyan);
+    color: white;
+    border: none;
+    padding: 0.7em 1.4em;
+    border-radius: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.Navbar .green-btn {
+    font-size: 1rem;
+}
