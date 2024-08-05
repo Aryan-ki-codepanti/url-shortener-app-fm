@@ -1,0 +1,26 @@
+.Statistics {
+    padding-block: 5em;
+}
+
+.Statistics h1,
+.Statistics p {
+    text-align: center;
+}
+.Statistics h1 {
+    font-size: 3rem;
+    color: var(--Very_Dark_Violet);
+    padding-block: 0.5em;
+}
+
+.Statistics p {
+    color: var(--Gray);
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding-bottom: 2em;
+}
+
+.StatCards {
+    display: flex;
+    gap: 2em;
+    align-items: start;
+}

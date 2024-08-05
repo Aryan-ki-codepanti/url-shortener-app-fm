@@ -42,3 +42,11 @@ body {
     max-width: 100%;
     overflow-x: hidden;
 }
+
+.light-bg {
+    background-color: #fefeff;
+}
+
+.shade-bg {
+    background-color: #f0f0f7;
+}
