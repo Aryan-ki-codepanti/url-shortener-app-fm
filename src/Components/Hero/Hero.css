@@ -39,7 +39,12 @@
     margin-bottom: 2em;
 }
 
-.hero-left .green-btn {
+.hero-left .green-btn,
+.Boost .green-btn {
     font-size: 1.3rem;
     border-radius: 30px;
+}
+.green-btn:hover {
+    transition: background-color 0.3s ease-in-out;
+    background-color: #98e2e2;
 }

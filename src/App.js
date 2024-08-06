@@ -3,6 +3,7 @@ import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
 import FA from "react-fontawesome";
 import Statistics from "./Components/Statistics";
+import Boost from "./Components/Boost";
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
                 {/* <FA className="super-crazy-colors" name="rocket" size="4x" /> */}
                 <Statistics />
             </div>
+            <Boost />
         </div>
     );
 }
