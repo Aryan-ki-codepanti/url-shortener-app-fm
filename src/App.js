@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar";
 import FA from "react-fontawesome";
 import Statistics from "./Components/Statistics";
 import Boost from "./Components/Boost";
+import Footer from "./Components/Footer";
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
                 <Statistics />
             </div>
             <Boost />
+            <Footer />
         </div>
     );
 }
