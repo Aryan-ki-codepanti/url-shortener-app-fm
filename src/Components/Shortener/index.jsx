@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Shortener.css";
+import axios from "axios";
 
 const Shortener = () => {
     const [error, setError] = useState(false);
@@ -23,6 +24,11 @@ const Shortener = () => {
         if (!inputLink) {
             setError(prev => true);
             return;
+        }
+
+        try {
+        } catch (err) {
+            console.log("Error Occured ", err);
         }
 
         setError(prev => false);

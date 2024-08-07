@@ -1,7 +1,6 @@
 import "./App.css";
 import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
-import FA from "react-fontawesome";
 import Statistics from "./Components/Statistics";
 import Boost from "./Components/Boost";
 import Footer from "./Components/Footer";
