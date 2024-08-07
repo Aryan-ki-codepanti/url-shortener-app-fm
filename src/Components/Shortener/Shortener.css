@@ -45,3 +45,35 @@
     font-style: italic;
     color: var(--Red);
 }
+
+.shortened-links {
+    padding-block: 1.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+.shortened-links .link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 1em 1.8em;
+    font-size: 1.2rem;
+    gap: 1em;
+    border-radius: 8px;
+}
+
+.shortened-links .link span:nth-of-type(2) {
+    margin-left: auto;
+    color: var(--Cyan);
+}
+
+.shortened-links button {
+    width: 120px;
+    border-radius: 7px;
+    font-size: 1.1rem;
+}
+
+.shortened-links button.copied {
+    background: var(--Very_Dark_Violet);
+}
