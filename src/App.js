@@ -5,6 +5,7 @@ import FA from "react-fontawesome";
 import Statistics from "./Components/Statistics";
 import Boost from "./Components/Boost";
 import Footer from "./Components/Footer";
+import Shortener from "./Components/Shortener";
 
 function App() {
     return (
@@ -14,7 +15,7 @@ function App() {
                 <Hero />
             </div>
             <div className="shade-bg">
-                {/* <FA className="super-crazy-colors" name="rocket" size="4x" /> */}
+                <Shortener />
                 <Statistics />
             </div>
             <Boost />

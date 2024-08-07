@@ -1,0 +1,47 @@
+.shortener-app {
+    padding: 2em 4em 2.5em;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+
+    border-radius: 10px;
+    background-color: var(--Dark_Violet);
+    background-image: url("/images/bg-shorten-desktop.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 168px;
+
+    position: relative;
+}
+.shortener-app > input {
+    flex-grow: 1;
+    border-radius: 12px;
+    border: none;
+}
+.shortener-app > input:focus {
+    outline: none;
+}
+
+.shortener-app .green-btn {
+    border-radius: 8px;
+}
+
+.shortener-app > input,
+.shortener-app .green-btn {
+    font-size: 1.3rem;
+    padding: 1em 2em;
+}
+
+.shortener-app input.error {
+    outline: 3px solid var(--Red);
+}
+.shortener-app input.error::placeholder {
+    color: var(--Red);
+}
+
+.shortener-app span {
+    position: absolute;
+    bottom: 1.3em;
+    font-style: italic;
+    color: var(--Red);
+}
